@@ -3,8 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  background: var(--color-button-background-primary-press, #e61717);
+  opacity: 0.4;
+  border-radius: var(--border-radius-4, 4px);
 }
 
 @media (prefers-reduced-motion: no-preference) {
