@@ -5,9 +5,6 @@
 .App-logo {
   height: 30vmin;
   pointer-events: none;
-  background: var(--color-button-background-primary-press, #e61717);
-  opacity: 0.4;
-  border-radius: var(--border-radius-4, 4px);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,8 +25,14 @@
 }
 
 .App-link {
-  color: var(--complementary-gold-medium, #b79967);
+  color: var(--color-button-text-primary-press, #fff);
   background: var(--grey-900, #222);
+  border-radius: var(--border-radius-4, 4px);
+}
+
+.title {
+  color: var(--color-button-background-primary-default, #cc1f20);
+  font-size: 30px;
 }
 
 @keyframes App-logo-spin {
